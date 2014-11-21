@@ -15,8 +15,6 @@ mysql_select_db("userdb");
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$username = mysql_real_escape_string($username);
-$password = mysql_real_escape_string($password);
 
 #$name = htmlspecialchars($name);
 #print "hello this is a quote \" $name";
